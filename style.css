@@ -159,7 +159,7 @@ button:hover {
 .four > .cta-container {
     margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background: #3882F6;
     width: 90%;
     padding: 2em 4em;
@@ -169,8 +169,13 @@ button:hover {
 .four button {
     border: 2px solid #F9FAF8;
     width: 160px;
-    padding: 0em;
+    padding: 0.5em 1em;
     border-radius: 2em;
+    align-self: center;
+}
+
+.four .cta-text {
+    width: 1080px;
 }
 
 .four .cta-text > h5, .four .cta-text > p {
@@ -185,6 +190,7 @@ button:hover {
 footer {
     padding: 2em;
 }
+
 footer h6 {
     text-align: center;
     font-size: 16px;
