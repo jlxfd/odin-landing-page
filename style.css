@@ -92,7 +92,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     gap: 48px;
-    padding-bottom: 12em;
+    padding-bottom: 8em;
 }
 
 .two h3 {
@@ -130,3 +130,63 @@ button:hover {
 .cont > p {
     text-align: center;
 }
+
+.three {
+    background: #E5E7EB;
+}
+
+.three > q {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    display: block;
+    padding:2em 4em 0.5em 4em;
+}
+
+.three > p {
+    font-weight: bolder;
+    text-align: end;
+    font-size: 18px;
+    padding-right: 8em;
+}
+
+.four {
+    display: grid;
+    place-content: center;
+    padding: 6em 4em;
+}
+.four > .cta-container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background: #3882F6;
+    width: 90%;
+    padding: 2em 4em;
+
+}
+
+.four button {
+    border: 2px solid #F9FAF8;
+    width: 160px;
+    padding: 0em;
+    border-radius: 2em;
+}
+
+.four .cta-text > h5, .four .cta-text > p {
+    color: #F9FAF8;
+}
+
+.four h5 {
+    font-size: 18px;
+    padding-bottom: 1em;
+}
+
+footer {
+    padding: 2em;
+}
+footer h6 {
+    text-align: center;
+    font-size: 16px;
+}
+
